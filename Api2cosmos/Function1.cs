@@ -32,7 +32,7 @@ namespace Api2cosmos
             {
                
                 //HTTP GET
-                var responseTask = client.GetAsync("https://byotdms-website.azurewebsites.net/api/master/GetModels?date=1900-10-18 04:53:13.684&start=0&pageSize=500");
+                var responseTask = client.GetAsync("add api URL");
                 responseTask.Wait();
                 
                 var result = responseTask.Result;
